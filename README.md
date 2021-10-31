@@ -46,7 +46,7 @@ useEffect( ()=>{
 console.log( 'component loaded' );
 })
 
-update to make aios call whenpage loads:
+update to make axios call when page loads:
 useEffect( ()=>{
 console.log( 'component loaded' );
 getItems();
@@ -64,6 +64,5 @@ alert('nope');
 console.log(err);
 })
 }
-
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
