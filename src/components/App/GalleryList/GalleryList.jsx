@@ -1,6 +1,10 @@
 import { useState } from "react";
 import GalleryItem from "../GalleryItem/GalleryItem";
 
+//PUT  to add likes
+// map looping thru content of gallery
+// const[name, setName]= useState( null );
+
 function GalleryList({ onGetGallery, galleryList, likeButton }) {
   return (
     <>

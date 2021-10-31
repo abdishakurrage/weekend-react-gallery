@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// const[name, setName]= useState( null );
+// add like button is working
+
 function GalleryItem({ onGetGallery, galleryList, likeButton, image }) {
   let [showDescription, setShowDescription] = useState(true);
 

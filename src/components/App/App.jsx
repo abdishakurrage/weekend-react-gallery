@@ -4,6 +4,8 @@ import GalleryList from "./GalleryList/GalleryList";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
+// set photos to be clicked
+//img vs the description
 function App() {
   let [galleryList, setGalleryList] = useState([]);
 
@@ -11,6 +13,8 @@ function App() {
     getGallery();
   }, []);
 
+  // get request gallery
+  // gallery items
   const getGallery = () => {
     axios
       .get("/gallery")
