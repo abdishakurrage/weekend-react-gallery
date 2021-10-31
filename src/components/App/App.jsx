@@ -39,7 +39,7 @@ function App() {
       .catch((error) => {
         console.log("PUT /like error", error);
       });
-  };
+  }; // end function working
 
   return (
     <div className="App">
